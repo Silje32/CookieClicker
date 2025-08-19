@@ -7,10 +7,12 @@ export default function Button() {
   return (
     <>
       <h1>Cookie Clicker</h1>
-      <button onClick={() => setCount((count) => count + 1)}>
-        Points Collected: {count}
-        <img src="cookie-1.png" alt="Image of a Cookie"></img>
-      </button>
+      <p>
+        <button onClick={() => setCount((count) => count + 1)}>
+          Points Collected: {count}
+          <img src="cookie-1.png" alt="Image of a Cookie"></img>
+        </button>
+      </p>
     </>
   );
 }
