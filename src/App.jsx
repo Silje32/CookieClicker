@@ -1,4 +1,5 @@
 import { useState } from "react";
+import cookie from "/cookie-1.png";
 import "./App.css";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <div>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
-          <img src="cookie.png" alt="Image of a Cookie"></img>
+          <img src="cookie-1.png" alt="Image of a Cookie"></img>
         </button>
         <p></p>
       </div>
